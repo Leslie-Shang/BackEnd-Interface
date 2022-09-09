@@ -39,10 +39,10 @@ public class SwaggerConfig {
 
     public ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("参数校验和统一异常处理Demo")
-                .description("用来演示参数校验和统一异常处理")
+                .title("SpringBoot后端接口开发")
+                .description("参数校验和统一异常处理")
                 .termsOfServiceUrl("leslie.com")
-                .contact(new Contact("Leslie", "", "Leslie@foxmail.com"))
+                .contact(new Contact("Leslie", "https://shangzg.top", "szgtql@outlook.com"))
                 .version("1.0")
                 .build();
     }
